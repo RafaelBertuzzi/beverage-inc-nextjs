@@ -21,7 +21,7 @@ export default function Join() {
     return (
         <>
             <PageLayout title={"Join Us"}>
-                <div className={"ml-20"}>
+                <div className={"sm:ml-5 md:ml-20 md:mt-32"}>
                     {!showSuccessMessage ? (
                         <>
                             <div className={"mb-2"}>
